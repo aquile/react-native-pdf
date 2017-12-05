@@ -45,7 +45,7 @@
         self.maximumZoomScale = 3.0;
         self.bouncesZoom = NO;
         self.bounces = YES;
-        self.delaysContentTouches = NO;
+       
         
         // fix statusbar effect when statusbar show/hide
         if (@available(iOS 11.0, *)) {
@@ -62,11 +62,6 @@
         [self bindTap];
     }
     return self;
-}
-
-- (BOOL)touchesShouldBegin:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event inContentView:(UIView *)view
-{
-    return NO;
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
