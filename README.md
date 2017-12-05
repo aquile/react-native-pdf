@@ -1,3 +1,7 @@
+Forked to incerease android-pdf-viewer version to 2.8.1 to fix similar bug we faced with during development: 
+https://github.com/barteksc/AndroidPdfViewer/issues/25
+
+
 # react-native-pdf
 [![npm](https://img.shields.io/npm/v/react-native-pdf.svg?style=flat-square)](https://www.npmjs.com/package/react-native-pdf)
 
